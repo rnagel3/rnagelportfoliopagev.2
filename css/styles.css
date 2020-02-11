@@ -1,0 +1,162 @@
+/* Color Palette
+#9F9AA4 - manatee
+#E7CFCD - dust storm
+#CFD8D7 - light gray
+#B5C9C3 - silver sand
+#CAB1BD - pale silver
+*/
+
+/* Global styles 
+---------------------------------*/
+/* border box fix */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* this gets rid of a weird blue outline that shows up */
+*:focus {
+    outline: none;
+}
+
+body {
+    background: #9F9AA4;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}   
+a {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+} 
+
+h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h3 {
+    margin: 0;
+}
+.content-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    overflow: hidden;
+}
+.col-narrow {
+    width: 28%;
+    float: left;
+    min-height: 100px;
+}
+.col-wide {
+    width: 66%;
+    float: left;
+    padding-left: 4%;
+    min-height: 100px;
+}
+
+/* header & footer */
+
+header, 
+footer {
+    background: #B5C9C3;
+}
+header h1, 
+header h2 {
+    margin: 0;
+}
+
+/* header styles only*/
+
+/* navigation
+------------------------- */
+nav {
+    text-align: center;
+    background: white;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+h3 ~ p {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+
+}
+/* footer styles only*/
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.list_inline {
+    padding: 5px;
+    display: inline-block;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+/*-----Button------------*/
+
+.button {
+    background-color: #9F9AA4;
+    border: 2px solid black;
+    padding: 15px 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
